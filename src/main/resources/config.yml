@@ -1,0 +1,10 @@
+# A custom survival fly plugin created for CHBird on Twitch.
+# Permissions:
+#   - survivalfly.toggle lets users toggle their own flight mode.
+#   - survivalfly.toggle.others lets users toggles others AND their own flight mode.
+
+# hunger-amplifier sets the level at which hunger is given to the player when they begin to fly.
+hunger-amplifier: 7
+
+# fly-speed sets the multiplier (default: 0.05, mc default: 0.1) for the speed at which players can fly at.
+fly-speed: .05

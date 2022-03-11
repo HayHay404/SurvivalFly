@@ -1,0 +1,21 @@
+name: SurvivalFly
+version: '${project.version}'
+main: hayhay.cc.survivalfly.SurvivalFly
+api-version: 1.18
+prefix: SurvivalFly
+authors: [ HayHay ]
+description: Lets you fly in survival mode while consuming hunger even faster!
+website: https://hayhay.cc
+commands:
+  survivalfly:
+    usage: /&l&2/survivalfly - &r/toggles your flight
+    description: Allow yourself to fly in survival mode with a few caveats.
+    permission: survivalfly.toggle
+permissions:
+  survivalfly.toggle:
+    description: Toggles flight for the user that runs it.
+  survivalfly.toggle.others:
+    description: Toggles flight for another user. Can be run from console as well.
+    children:
+      survivalfly.toggle: true
+
